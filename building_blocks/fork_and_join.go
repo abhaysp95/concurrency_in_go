@@ -14,12 +14,8 @@ func fork_and_join() {
 		go func(salutation string) {
 			defer wg.Done()
 			fmt.Println(salutation)
-		}(salutation)
+		}(salutation)  // need to pass as argument cause this go func is essentially a closure
 	}
 
 	wg.Wait()
-}
-
-func Build() {
-	fork_and_join()
 }
