@@ -1,5 +1,5 @@
 package building_blocks
 
 func Main() {
-	omaewaRWMutex()
+	condition_and_signal()
 }
