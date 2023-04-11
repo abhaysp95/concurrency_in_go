@@ -1,5 +1,5 @@
 package building_blocks
 
 func Main() {
-	justMutexIt()
+	omaewaRWMutex()
 }
